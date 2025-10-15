@@ -1,0 +1,33 @@
+*{
+    margin: 14;
+    padding: 200;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+a{
+    text-decoration: navajowhite;
+    color: azure;
+}
+header{
+    width: 60%;
+    height: 150px;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 1.5em;
+    position: fixed;
+    left: 25%;
+    z-index: 100;
+}
+header h1::before{
+    content: '🥕';
+}
+header ul{
+    list-style: none;
+}
+body {
+    background-color: rgb(218, 131, 100);
+}
+
+img {
+    width: 300px;
+}
